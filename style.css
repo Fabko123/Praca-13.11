@@ -1,0 +1,123 @@
+.nav-links li {
+    list-style: none;
+   
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+}
+
+nav{
+      
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-height: 10vh;
+     background-color: rgb(241, 241, 241);
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.10);
+    position: fixed;
+    width: 100%;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    width: 40%;
+   font-size: 20px;
+    font-weight: 600;
+    margin-right: 5px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Dosis', sans-serif;
+
+}
+
+.obrazek{
+    width: 190px;
+   margin-top:10px;
+   margin-left: -25px;
+}
+
+.zielony{
+    color:green
+}
+
+
+.obrazek1{
+    width:100%;
+    height:100%;    
+}
+
+
+.grid-container {
+    display: grid;
+}
+  
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    overflow: hidden;
+}
+
+.grid2{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+   
+    grid-gap: 20px;
+    grid-row: 20px;
+}
+
+.grid2 img {
+    width: 300px;
+}
+
+.napisss{
+   text-align: center;
+   font-size: 25px;
+   height: 19.5%;
+   background-color: rgba(56,53,53,0.541);
+color: white;
+}
+
+.tlonanapis{
+   width: 30%;
+}
+
+.zielone1{
+    background-color: rgb(33, 250, 33);
+    min-height: 250px;
+}
+
+.niebieskie{
+  min-height: 250px;
+background-color: blue;
+}
+
+.gora{
+    color: white;
+    font-size: 50px;
+    margin: 0 auto;
+    margin-left: 45%;
+}
+.napisydol{
+    color: white;
+    margin-left: 37%;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
+.napisygora{
+    color: white;
+    margin-left: 27%;
+    font-size: 30px;
+    margin-top: 30px;
+}
+body{
+    background-color: rgb(25, 51, 35);
+}
